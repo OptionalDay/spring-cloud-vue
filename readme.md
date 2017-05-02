@@ -52,25 +52,25 @@
  * 端口：配置中心端口(1111)、注册中心(8888)、rest服务(80)、zipkin服务(9012)、UI前端(8080),如果端口冲突请自行修改。
 
 ## 效果图
-![登录](./doc/登录.png)
+![登录](./pic/登录.png)
 
-![部门管理](./doc/部门管理.png)
+![部门管理](./pic/部门管理.png)
 
-![部门管理](./doc/部门管理.png)
+![部门管理](./pic/部门管理.png)
 
-![菜单管理](./doc/菜单管理.png)
+![菜单管理](./pic/菜单管理.png)
 
-![岗位管理](./doc/岗位管理.png)
+![岗位管理](./pic/岗位管理.png)
 
-![权限规则管理](./doc/权限规则管理.png)
+![权限规则管理](./pic/权限规则管理.png)
 
-![用户组管理](./doc/用户组管理.png)
+![用户组管理](./pic/用户组管理.png)
 
-![注册中心](./doc/注册中心.png)
+![注册中心](./pic/注册中心.png)
 
-![swagger](./doc/swagger.png)
+![swagger](./pic/swagger.png)
 
-![zipkin](./doc/zipkin.png)
+![zipkin](./pic/zipkin.png)
 
 ## License
 cloud-vue 基于apache2.0 <http://www.apache.org/licenses/LICENSE-2.0>
