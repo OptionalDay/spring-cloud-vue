@@ -74,6 +74,6 @@
 
 ## License
 cloud-vue 基于apache2.0 <http://www.apache.org/licenses/LICENSE-2.0>
-
+![微信](./pic/微信支付.png)
 如果项目对您有用，请作者喝杯咖啡吧！
 
