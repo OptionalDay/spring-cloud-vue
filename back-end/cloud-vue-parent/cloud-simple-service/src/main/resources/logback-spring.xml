@@ -23,10 +23,6 @@
     <logger name="com.framework" level="#logback.loglevel#"/>
 -->
 
-    
-
-    <logger name="io.github.jhipster" level="DEBUG"/>
-
     <logger name="javax.activation" level="WARN"/>
     <logger name="javax.mail" level="WARN"/>
     <logger name="javax.xml.bind" level="WARN"/>
