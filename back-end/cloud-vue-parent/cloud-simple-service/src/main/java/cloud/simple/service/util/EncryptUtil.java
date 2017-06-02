@@ -32,8 +32,6 @@ public class EncryptUtil {
             114, 115, 116, 117, 118, 119, 120, 121, 122, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 43, 47 };
 
     static {
-        // create encode table
-        // ENCODE_TABLE = new byte[64];
         int index = 0;
         for (char c = 'A'; c <= 'Z'; c++)
             ENCODE_TABLE[index++] = (byte) c;
@@ -50,11 +48,8 @@ public class EncryptUtil {
     }
 
     /**
-     * <b>概要：</b>
      * base64加密
-     * <b>作者：</b>zhouxw </br>
-     * <b>日期：</b>2015年12月17日 </br>
-     * TODO 每个参数，返回值注明含义
+     * 每个参数，返回值注明含义
      * @param data
      * @return
      */
@@ -110,9 +105,6 @@ public class EncryptUtil {
     /**
      * <b>概要：</b>
      * base64解密 
-     * <b>作者：</b>zhouxw </br>
-     * <b>日期：</b>2015年12月17日 </br>
-     * TODO 每个参数，返回值注明含义
      * @param base64Data
      * @return
      */
@@ -189,11 +181,7 @@ public class EncryptUtil {
     } 
 
     /**
-     * <b>概要：</b>
      * 转换字节数组为16进制字符串
-     * <b>作者：</b>zhouxw </br>
-     * <b>日期：</b>2015年12月17日 </br>
-     * TODO 每个参数，返回值注明含义
      * @param b
      * @return
      */
@@ -209,8 +197,6 @@ public class EncryptUtil {
     /**
      * <b>概要：</b>
      * MD5 摘要计算
-     * <b>作者：</b>zhouxw </br>
-     * <b>日期：</b>2015年12月17日 </br>
      * TODO 每个参数，返回值注明含义
      * @param src
      * @return
@@ -226,9 +212,6 @@ public class EncryptUtil {
   	/**
   	 * <b>概要：</b>
   	 * MD5 摘要计算
-  	 * <b>作者：</b>zhouxw </br>
-  	 * <b>日期：</b>2015年12月17日 </br>
-  	 * TODO 每个参数，返回值注明含义
   	 * @param src
   	 * @return
   	 * @throws Exception
@@ -327,9 +310,6 @@ public class EncryptUtil {
 	 /**
 	  * <b>概要：</b>
 	  * 3DES解密
-	  * <b>作者：</b>zhouxw </br>
-	  * <b>日期：</b>2016年1月6日 </br>
-	  * TODO 每个参数，返回值注明含义
 	  * @param value
 	  * @param key
 	  * @return
@@ -351,9 +331,6 @@ public class EncryptUtil {
 	/**
 	 * <b>概要：</b>
 	 * 十六进制转二进制
-	 * <b>作者：</b>zhouxw </br>
-	 * <b>日期：</b>2016年1月6日 </br>
-	 * TODO 每个参数，返回值注明含义
 	 * @param hex
 	 * @return
 	 * @throws IllegalArgumentException
